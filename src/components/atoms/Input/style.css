@@ -1,0 +1,15 @@
+.label {
+  color: #3062cf;
+  position: relative;
+  top: 15px;
+}
+.ant-calendar-picker-input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #757575 !important;
+  border-radius: 0;
+}
+.ant-calendar {
+  width: 500px !important;
+}

@@ -1,0 +1,44 @@
+.navbar {
+  position: fixed;
+  width: calc(100% - 80px);
+}
+.notification-container {
+  width: 100%;
+  text-align: justify;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.notification-paragraph {
+  font-size: 0.7em;
+  display: block;
+  width: 250px;
+  padding: 0 10px 0 10px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+.MuiAppBar-colorPrimary-10 {
+  background-color: #3062cf !important;
+}
+
+/* width */
+.notification-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Track */
+.notification-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #3062cf;
+  border-radius: 10px;
+}
+
+/* Handle */
+.notification-container::-webkit-scrollbar-thumb {
+  background: #2853bb;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.notification-container::-webkit-scrollbar-thumb:hover {
+  background: #232e80;
+}

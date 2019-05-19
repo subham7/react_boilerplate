@@ -9,7 +9,7 @@ if (typeof require !== 'undefined') {
 }
 
 /* Without CSS Modules, with PostCSS */
-module.exports =   withCSS(antdLessLoader({
+module.exports =  withCSS(antdLessLoader({
   // exportPathMap: function() {
   //   return {
   //     '/': { page: '/' },
@@ -26,3 +26,4 @@ module.exports =   withCSS(antdLessLoader({
       javascriptEnabled: true,
     }
 }));
+

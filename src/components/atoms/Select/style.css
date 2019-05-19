@@ -1,0 +1,15 @@
+.label {
+  color: #3062cf;
+  position: relative;
+  top: 15px;
+}
+.selectControl {
+  width: 100%;
+}
+.ant-select-selection {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #757575 !important;
+  border-radius: 0;
+}
